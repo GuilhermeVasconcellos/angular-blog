@@ -1,0 +1,29 @@
+.container-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    margin-top: 15px;
+}
+
+
+.content-photo > img {
+    width: 550px;
+    min-width: 500px;
+    height: 300px;
+    border: 5px solid grey;
+    border-radius: 10px;
+}
+
+.content-description {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content-description > p {
+    margin-top: 20px;
+    color: lightgray;
+}
